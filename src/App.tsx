@@ -27,7 +27,13 @@ const App: React.FC = () => {
       id: 2,
       name: "Enter your email",
       title: "Enter your email",
-      description: "This willl be used to contact you for the next steps",
+      description: "This will be used to contact you for the next steps",
+    },
+    {
+      id: 3,
+      name: "Enter your name",
+      title: "Enter your name",
+      description: "This will be used to contact you for the next steps",
     },
   ]);
 

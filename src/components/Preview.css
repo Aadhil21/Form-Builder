@@ -26,20 +26,6 @@
   display: block;
 }
 
-.preview-input {
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
-  outline: none;
-  border: none;
-  border-bottom: 1px solid black;
-}
-
-.preview-input:focus {
-  border-color: #4caf50;
-  outline: none;
-}
-
 .preview-button {
   width: fit-content;
   border-radius: 20px;

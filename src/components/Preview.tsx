@@ -55,7 +55,6 @@ const Preview: React.FC<PreviewProps> = ({ formData }) => {
             <h2 className="preview-title">{formData.title}</h2>
             <p className="preview-description">{formData.description}</p>
             <label className="preview-label">
-              Input Field:
               <input
                 type="text"
                 placeholder="Enter value"
