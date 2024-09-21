@@ -1,0 +1,59 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal-content li {
+  margin-bottom: 10px;
+}
+
+.form-choice-button {
+  padding: 10px 20px;
+  margin: 5px 0;
+  border: none;
+  background-color: #dddddd;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-choice-button:hover {
+  background-color: #cacaca;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.close-button {
+  color: white;
+  background-color: #f44336;
+}
+
+.close-button:hover {
+  background-color: #e53935;
+}

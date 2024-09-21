@@ -1,0 +1,114 @@
+* {
+  font-family: "Poppins";
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: 0.25fr 0.75fr;
+  height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.left-section h2 {
+  margin-bottom: 20px;
+}
+
+.left-section ul {
+  flex-grow: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-section ul li {
+  margin-bottom: 10px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.form-item:hover {
+  background-color: #f1f1f1;
+}
+
+.form-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form-selector button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2.5px;
+  font-size: 16px;
+  line-height: 0.5;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.right-section {
+  display: flex;
+  padding: 20px;
+  overflow-y: auto;
+  align-items: center;
+}
+
+.add-form-container {
+  display: flex;
+  justify-content: first baseline;
+  align-items: flex-end;
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+
+.add-form-button {
+  padding: 10px 20px;
+  width: fit-content;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.add-form-button:hover {
+  background-color: #45a049;
+}
